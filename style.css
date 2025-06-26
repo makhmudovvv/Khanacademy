@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+nav {
+    display: flex;
+}
+
+.inp {
+    position: relative;
+    width: 200px;
+color: rgb(49, 99, 233);
+
+}
+
+.inp i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: rgb(49, 99, 233);
+}
+
+.inp input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+color: rgb(49, 99, 233);
+border: 2px solid ;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.inp {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+select {
+    width: 100px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 25px;
+    border: 2px solid ;
+    color: rgb(49, 99, 233);
+    border: none;
+
+}
+.logo img{
+    width: 175px;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.xayriya{
+    color: rgb(49, 99, 233);
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.xayriya ul:hover{
+    text-decoration: underline;
+}
+.xayriya ul{
+    list-style: none;
+}
+.azo{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.azo button{
+    width: 100px;
+    height: 40px;
+    background:rgb(49, 99, 233) ;
+    color: white;
+    border: none;
+}
+.black{
+    margin-top: 30px;
+    display:flex;
+}
+.black img{
+    width: 450px;
+    margin-left: 100px;
+}
+
+.yozuv{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.yozuv p{
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 15px;
+}
+.btn button{
+    width: 150px;
+    height: 40px;
+    background:rgb(49, 99, 233) ;
+    color: white;
+    border: none;
+    transition: .7s;
+}
+.btn button:hover{
+    transform: scale(1.1);
+    transition: .7s;
+    border-radius: 24px;
+}
+
+.fanlar {
+    display: flex;
+    gap: 40px;
+    background: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    justify-content: space-between;
+  }
+  .fanlar img{
+     border-radius: 50%;
+  }
+  .first{
+    flex: 1;
+  }
+  
+  .second {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .second img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .second h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .subject {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .subject ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .subject li {
+    margin-bottom: 10px;
+    color: #222;
+    font-size: 16px;
+  }
+  
+  .toggle-icon {
+    font-size: 18px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+.fanlar ul li:hover{
+    text-decoration: underline;
+}
+
+.academy{
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.Kard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.card{
+    text-align: center;
+}
+.card img{
+    width: 105px;
+}
+.card p{
+    margin-top: 10px;
+}
+.three{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 100px;
+}
+.three img{
+    width: 594px;
+}
+.bir button{
+    width: 150px;
+    height: 40px;
+    background:rgb(49, 99, 233) ;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.bir h1{
+    padding: 5px;
+    font-size: 40px;
+}
+.bir p{
+    font-size: 25px;
+    padding: 5px;
+}
+.four{
+    display: flex;
+    margin-top: 100px;
+}
+.ikki img{
+    width: 504px;
+    margin-left: 100px;
+}
+.uch button{
+    width: 200px;
+    height: 60px;
+    background:rgb(49, 99, 233) ;
+    color: white;
+    border: none;
+    margin-left: 17px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.uch{
+    margin-left: 100px;
+}
+.uch h1{
+    padding: 20px;
+    font-size: 40px;
+}
+.uch p{
+    font-size: 25px;
+    padding: 20px;
+}
+.anjali{
+    background: #f7f7f7;
+    text-align: center;
+    margin-top: 13  0px;
+    padding: 100px 0 100px 0;
+}
+.photo{
+    display: flex;
+    color: red;
+    margin-left: 1000px;
+    gap: 30px;
+}
+.photo .about{
+    margin-top: 30px;
+}
+.photo img{
+    width: 130px;
+}
+.little{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.little img{
+    width: 594px;
+}
+
+.buttonlar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    
+}
+.buttonlar button{
+    width: 335px;
+    height: 56px;
+    background:rgb(49, 99, 233) ;
+    border-radius:6px;
+    border: none;
+    color: white;
+    transition: .7s;
+    font-size: 20px;
+}
+.buttonlar button:hover{
+    transform: scale(1.1);
+    transition: .7s;
+}
+.rasmlar{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.rasmlar img{
+    width: 200px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 465px;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+
+.footer .img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .img img{
+    width: 204px;
+}
+
+footer{
+    width: 100%;
+    height: 572px;
+    padding: 12px 180px;
+    padding-top: 32px;
+    margin-top: 100px;
+    background-color: #0b2149;
+}
+
+footer .divs{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    gap: 20px;
+}
+
+footer .divs .div:nth-child(1){
+    width: 464px;
+    height: 100%;
+    padding-right: 40px;
+}
+
+footer .divs .div:nth-child(1) p{
+    letter-spacing: 2px;
+}
+
+footer .divs .div{
+    width: 153px;
+    height: 100%;
+    font-size: 12px;
+}
+
+footer .divs .div span{
+    color: white;
+    cursor: pointer;
+}
+
+footer .divs .div span:hover{
+    text-decoration: underline;
+}
+
+footer .divs .div ul{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+footer .divs .div ul li{
+    margin-top: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+}
+
+footer .divs .div ul img{
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+footer .divs .div ul .li{
+    color: #8295ba;
+    margin-bottom: 10px;
+}
+
+footer .divs .div ul li:hover{
+    text-decoration: underline;
+}
+
+footer .divs .div h3{
+    width: 100%;
+    color: #8295ba;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer .qat{
+    display: flex;
+    gap: 20px;
+}
+
+footer .qat p{
+    color: rgb(151, 203, 255);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+footer .qat ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    color: white;
+    font-size: 12px;
+    margin-right: 450px;
+}
+
+footer .qat ul li{
+    cursor: pointer;
+}
+
+footer .qat ul li:hover{
+    text-decoration: underline;
+}
+
+footer .icons{
+    width: auto;
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+}
+
+footer .icons i{
+    cursor: pointer;
+    font-size: 22px;
+}
+
+footer .icons i:hover{
+    color: grey;
+}
